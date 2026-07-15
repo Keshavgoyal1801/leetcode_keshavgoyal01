@@ -34,10 +34,4 @@ The card above automatically updates and shows:
 
 ---
 
-## 🛠️ Language
-
-Java ☕
-
----
-
 ### Every expert was once a beginner.
