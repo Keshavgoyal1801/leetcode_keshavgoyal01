@@ -31,11 +31,6 @@ class Solution {
             return 1;
         }
 
-        int count = 0;
-        while (num > 0) {
-            count++;
-            num = num / 10;     // also num /= 10;
-        }
-        return count;
+        return (int)(Math.log10(num)) + 1;
     }
 }
