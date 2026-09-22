@@ -4,12 +4,12 @@ WHERE store1 IS NOT NULL
 
 UNION ALL
 
-SELECT product_id, 'store2' AS store, store2 AS price
+SELECT product_id, 'store2', store2
 FROM Products
 WHERE store2 IS NOT NULL
 
 UNION ALL
 
-SELECT product_id, 'store3' AS store, store3 AS price
+SELECT product_id, 'store3', store3
 FROM Products
 WHERE store3 IS NOT NULL;
